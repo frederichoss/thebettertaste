@@ -1,0 +1,264 @@
+/* There's no sex or any adult material in this CSS-file... I'm sorry!! :p */
+
+body {
+	margin:0px;
+	padding:0px;
+	background-image:url(../images/bg.gif);
+	background-color:#e9e9e9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000;
+	}
+	
+#header {
+	width:100%;
+	background-color:#000;
+	}
+	
+#row1 {
+	clear:both;
+	width:100%;
+	}
+	
+/*
+#about {
+	float:left;
+	padding:20px 10px 20px 20px;
+	width:285px;
+	}
+*/
+
+#contact {
+	float:left;
+	padding:20px;
+	width:245px;}
+
+/*
+#links {
+	float:left;
+	padding:20px;
+	width:210px;
+	}
+*/
+
+#portfolio {
+	clear:both;
+	padding:25px 20px;
+	width:796px;
+	}
+
+.content {
+	margin:22px 0px 0px 15px;
+	line-height:1.2em;
+	}
+
+.content a:link {
+	text-decoration:none;
+	color:#000;
+	}
+
+.content a:visited {
+	text-decoration:none;
+	color:#000;
+	}
+
+.content a:hover {
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+	color:#000;}
+
+.aboutcontent {
+	background-image:url(../images/avatar.gif);
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	padding-left:80px;
+	min-height:70px;
+	}
+
+.red {
+	color:#6f0000;
+	}
+
+.portfoliocontent {
+	margin-top:15px;
+	}
+
+.portfoliocontent h1 {
+	font-size:18px;
+	border-bottom:1px dotted #000;
+	margin:0px 0px 9px 15px;
+	clear:both;
+	padding-bottom:5px;
+	}
+
+.portfoliocontent p {
+	margin:0px 0px 9px 15px;
+	clear:both;
+	padding-bottom:5px;
+	}
+
+.item {
+	float:left;
+	width:178px;
+	background-color:#dadada;
+	margin-right:20px;
+	margin-bottom:27px;
+	background-image:url(../images/bg_item.gif);
+	border:1px solid #cfcfcf;
+	}
+
+.lastitem {
+	float:left;
+	width:178px;
+	background-color:#dadada;
+	background-image:url(../images/bg_item.gif);
+	border:1px solid #cfcfcf;
+	}
+
+.row2 {
+	margin:0px 0px 0px 15px;
+	clear:both;
+	}
+
+.itemtitelonline {
+	padding:4px 7px;
+	font-weight:bold;
+	background-image:url(../images/online.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+
+.itemtiteloffline {
+	padding:4px 7px;
+	font-weight:bold;
+	background-image:url(../images/offline.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+
+.itemimage {
+	padding:6px;
+	text-align:center;
+	}
+
+.itemcontent {
+	padding:0px 7px 6px 7px;
+	font-size:12px;
+	text-align:left;
+	}
+	
+.itemcontent p {
+	padding:0px;
+	margin:0px;
+	}
+
+.itemcontent a:link {
+	text-decoration:none;
+	border-bottom:1px solid #6f0000;
+	color:#6f0000;
+	}
+
+.itemcontent a:visited {
+	text-decoration:none;
+	border-bottom:1px solid #6f0000;
+	color:#6f0000;
+	}
+
+.itemcontent a:hover {
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+	color:#000;
+	}
+
+#footer {
+	clear:both;
+	padding:10px 0px 10px 35px;
+	font-size:12px;
+	border-top:1px solid #000;
+	background-color:#000;
+	color:#fff;
+	}
+
+#lightbox{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url(../images/blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%	
+	}
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	}
+	
+/* Not even at the bottom of this cute page ;) */
+
+	
